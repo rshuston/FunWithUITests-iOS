@@ -58,7 +58,6 @@ class ScreenChangeTests: XCTestCase {
         app.navigationBars["FunWithUITests.FooView"].buttons["Back"].tap()
         label = app.staticTexts["Home"]
         XCTAssert(label.exists)
-
     }
 
 }

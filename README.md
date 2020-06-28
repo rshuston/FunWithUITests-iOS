@@ -73,9 +73,13 @@ simulator knows you really mean business.
 
 ## Testing from the Terminal
 
-You can perform testing from the macOS Terminal. This is useful for CI and other automated
-activities. Here are some useful command examples, using the "iPhone SE (2nd generation)"
+You can perform testing from the macOS Terminal using `xcodebuild`. This is useful for CI and other
+automated activities. Here are some useful examples, using the "iPhone SE (2nd generation)"
 simulator, configured for iOS=13.5.
+
+__Note:__ Running iOS tests via `xcodebuild` on a simulator as the platform will run the simulator
+in headless mode. You won't see the simulator screen, but you will still hear any keyboard clicks
+and sounds that your app may produce.
 
 ### Show available testing destinations
 

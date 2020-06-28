@@ -12,7 +12,7 @@ import XCTest
 
 class TemperatureConverterTests: XCTestCase {
 
-    // Celsius conversion
+    // MARK: - Celsius conversion
 
     func testConvert_0C_to_32F() throws {
         let fahrenheit = TemperatureConverter.convert(celsius: 0.0)
@@ -34,7 +34,7 @@ class TemperatureConverterTests: XCTestCase {
         XCTAssertEqual(fahrenheit, -40.0)
     }
 
-    // Fahrenheit conversion
+    // MARK: - Fahrenheit conversion
 
     func testConvert_5F_to_m15C() throws {
         let celsius = TemperatureConverter.convert(fahrenheit: 5.0)

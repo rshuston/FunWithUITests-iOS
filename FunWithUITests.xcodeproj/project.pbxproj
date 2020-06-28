@@ -48,6 +48,7 @@
 		4E98DF7A24A6D31B00664BBD /* BarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
 		4EC8157D24A6E1DC005175DE /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
 		4EC8157F24A6E2DA005175DE /* TemperatureConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterTests.swift; sourceTree = "<group>"; };
+		4EE8495424A8F94F00B40D33 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		4EEC3D9F24A6C93E009F8DCA /* FunWithUITests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWithUITests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EEC3DA224A6C93E009F8DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EEC3DA424A6C93E009F8DCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				4E3F3B3024A7B16F00653F7C /* README.md */,
+				4EE8495424A8F94F00B40D33 /* Makefile */,
 				4EEC3DA124A6C93E009F8DCA /* FunWithUITests */,
 				4EEC3DB824A6C93F009F8DCA /* FunWithUITestsTests */,
 				4EEC3DC324A6C93F009F8DCA /* FunWithUITestsUITests */,
