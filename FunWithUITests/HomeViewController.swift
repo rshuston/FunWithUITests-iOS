@@ -22,6 +22,9 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
         // Initialize to common Celsius-Fahrenheit temperature point
         fahrenheitTextField.text = "-40.0"
         celsiusTextField.text = "-40.0"
+        
+        // Gesture for putting away keyboard when touching outside UITextField
+        view.addGestureRecognizer( UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing)) )
     }
 
     // MARK: - UITextFieldDelegate methods
